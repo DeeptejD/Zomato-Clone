@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
-*{
+* {
     font-family: 'Poppins', sans-serif;
 }
 
@@ -14,7 +14,7 @@ body {
 header {
     width: 100%;
     /* 70vh means 70 percent of the viewport */
-    height: 70vh;
+    height: 78vh;
     overflow: hidden;
     position: relative;
     object-fit: cover;
@@ -28,7 +28,7 @@ header {
     z-index: -1;
 }
 
-.header-img img{
+.header-img img {
     width: 100%;
 }
 
@@ -52,7 +52,7 @@ header {
     gap: 1.5rem;
 }
 
-.head{
+.head {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -60,17 +60,17 @@ header {
     align-items: center;
 }
 
-.logo{
+.logo {
     width: 20vw;
 }
 
-.head h3{
+.head h3 {
     color: whitesmoke;
     font-size: 2.1rem;
     font-weight: 400;
 }
 
-.search{
+.search {
     display: flex;
     width: 55vw;
     /* justify-content: center; */
@@ -81,7 +81,7 @@ header {
     /* justify-content: space-around; */
 }
 
-.search .search-item{
+.search .search-item {
     display: flex;
     align-items: center;
     margin-left: 10px;
@@ -89,7 +89,7 @@ header {
     /* padding: 5px; */
 }
 
-.search .search-item p{
+.search .search-item p {
     color: gray;
     /* border-right: 1px solid grey; */
     font-size: 15px;
@@ -97,7 +97,7 @@ header {
     margin-left: 10px;
 }
 
-.search .search-item input{
+.search .search-item input {
     outline: none;
     border: none;
     width: 200%;
@@ -106,24 +106,24 @@ header {
     /* flex-grow: 1; */
 }
 
-.search .search-item:first-child{
+.search .search-item:first-child {
     width: 30%;
     color: palevioletred;
 }
 
-.search .search-item:last-child{
+.search .search-item:last-child {
     width: 30%;
     color: grey;
 }
 
-.sec-1{
+.sec-1 {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 4rem;
 }
 
-.sec-1 .sec-1-item{
+.sec-1 .sec-1-item {
     position: relative;
     width: 15rem;
     margin: 3px 5px;
@@ -133,14 +133,14 @@ header {
     border: 1px solid rgb(227, 227, 227);
 }
 
-.sec-1 .sec-1-item img{
+.sec-1 .sec-1-item img {
     width: 100%;
     border: 1px solid rgb(227, 227, 227);
     border-radius: 13px;
     z-index: -1;
 }
 
-.sec-1 .sec-1-item .item-details{
+.sec-1 .sec-1-item .item-details {
     position: absolute;
     bottom: 3px;
     align-items: center;
@@ -151,10 +151,95 @@ header {
     z-index: 2;
 }
 
-.sec-1 .sec-1-item .item-details p{
+.sec-1 .sec-1-item .item-details p {
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 50%;
+}
+
+/* sec-2 */
+
+.sec-2 {
+    width: 1080px;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+
+.sec-2-heading {
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: 400px;
+    /* display: flex; */
+    text-align: center;
+    /* margin: 0;
+    padding: 0; */
+    /* justify-content: center; */
+}
+
+.sec-2 .sec-2-container .sec-2-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sec-2 .sec-2-container .sec-2-items .sec-2-item {
+    width: 100%;
+    max-width: 26%;
+    margin-bottom: 20px;
+    border: 10px;
+    box-shadow: 0 2px 4px rgb(224, 224, 224);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.sec-2-item .item-head {
+    font-size: 1.2rem;
+    color: grey;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+/* sec-3 */
+.sec-3 {
+    height: 620px;
+    background-color: rgb(251, 251, 247);
+}
+
+.sec-3-container {
+    width: 1080px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec-3-img-left {
+    width: 40%;
+}
+
+.sec-3-img-left img {
+    width: 400px;
+}
+
+.sec-3-right h1 {
+    font-size: 2.5rem;
+    font-weight: lighter;
+    margin-bottom: 15px;
+    margin: 0;
+}
+
+.sec-3-right p {
+    font-size: 1.2rem;
+    font-weight: lighter;
+    margin-bottom: 15px;
+}
+
+.sec-3-download img{
+    width: 30%;
+}
+.sec-4{
+    text-align: center;
 }
