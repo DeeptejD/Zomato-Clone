@@ -3,6 +3,9 @@
 # Zomato Clone
 
 #### Using pure HTML and CSS =)
+
+  <a href="https://deeptejd.github.io/Zomato-Clone/">Click Here</a> to visit the site!
+  
 #### Screenshots ⬇️
 
 </div>
