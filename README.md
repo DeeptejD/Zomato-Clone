@@ -6,8 +6,6 @@
 
   <a href="https://deeptejd.github.io/Zomato-Clone/">Click Here</a> to visit the site!
   
-#### Screenshots ⬇️
-
 </div>
 
 ![Screenshot 2023-03-12 182608](https://user-images.githubusercontent.com/88930014/224546249-adb9a361-27cd-4f6e-ab2b-a6dffccc0afc.png)
